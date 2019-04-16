@@ -1,0 +1,11 @@
+.header{
+  border-bottom: 1px solid #ddd;
+  .info{
+    padding: 24px;
+  }
+}
+.row{
+  display:inline-flex;
+  flex-direction:column;
+  text-align: center;
+}
