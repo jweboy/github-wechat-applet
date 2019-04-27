@@ -1,0 +1,27 @@
+.layout{
+  padding: 20px 0;
+}
+.item{
+  padding: 15px 20px;
+  margin: 20px;
+  border: 1px solid #d6e4ef;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 36px;
+}
+.item:first-child{
+  margin-top: 0;
+}
+.active{
+  color: #6190E8;
+}
+.tags{
+  text-align: right
+}
+.create-date{
+  color: #9d9e9f;
+  font-size: 28px;
+}
+.avatar{
+  margin-right: 20px;
+}

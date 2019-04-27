@@ -1,0 +1,16 @@
+.fab-btn{
+  position: fixed;
+  z-index: 1000;
+  left: 50%;
+  bottom: 5%;
+  transform:translateX(-50%);
+}
+.filter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  .tag{
+    margin-right: 15px;
+  }
+}

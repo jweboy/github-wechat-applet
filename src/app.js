@@ -4,7 +4,7 @@ import { Provider } from '@tarojs/redux'
 import 'taro-ui/dist/style/index.scss'
 
 import Index from './pages/index'
-import SearchRepos from './pages/search-repos'
+import SearchRepos from './pages/search-repo'
 
 import configStore from './store'
 
@@ -23,7 +23,9 @@ class App extends Component {
   config = {
     pages: [
       'pages/repo-detail/index',
-      'pages/search-repos/index',
+      'pages/search-repo/index',
+      'pages/repo-trending/index',
+      'pages/repo-events/index',
       'pages/index/index',
     ],
     window: {

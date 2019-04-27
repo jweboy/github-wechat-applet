@@ -1,8 +1,9 @@
 {
 	"miniprogramRoot": "dist/",
 	"projectname": "taro-github",
+	"cloudfunctionRoot": "cloudfunctions/",
 	"description": "",
-	"appid": "touristappid",
+	"appid": "wx9bf5585b9cac9dbd",
 	"setting": {
 		"urlCheck": true,
 		"es6": false,
@@ -11,5 +12,7 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {}
 }
